@@ -1,0 +1,7 @@
+autogen-agentchat~=0.2 
+matplotlib 
+yfinance
+agentops
+flaml[automl]
+openai
+python-dotenv
