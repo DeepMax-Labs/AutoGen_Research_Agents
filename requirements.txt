@@ -5,3 +5,7 @@ agentops
 flaml[automl]
 openai
 python-dotenv
+reportlab
+fpdf
+pathlib
+typing

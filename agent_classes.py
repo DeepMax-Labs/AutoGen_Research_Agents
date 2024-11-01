@@ -23,7 +23,8 @@ class ExplainerAgent:
                 },
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.5,
+            temperature=0,
+            max_tokens=16000,
         )
         return res.choices[0].message.content
 
@@ -45,7 +46,8 @@ class LiteratureReviewer:
                 },
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.5,
+            temperature=0,
+            max_tokens=16000,
         )
         return res.choices[0].message.content
      
@@ -64,7 +66,8 @@ class FormulationAgent:
                 },
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.5,
+            temperature=0,
+            max_tokens=16000,
         )
         return res.choices[0].message.content
   
@@ -85,7 +88,8 @@ class MethodAgent:
                 },
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.5,
+            temperature=0,
+            max_tokens=16000,
         )
         return res.choices[0].message.content
   
@@ -105,7 +109,8 @@ class CollectorAgent:
                 },
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.5,
+            temperature=0,
+            max_tokens=16000,
         )
         return res.choices[0].message.content
   
@@ -126,7 +131,8 @@ class DataAnalyst:
                 },
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.5,
+            temperature=0,
+            max_tokens=16000,
         )
         return res.choices[0].message.content
 
@@ -147,7 +153,8 @@ class DiscussionAgent:
                 },
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.5,
+            temperature=0,
+            max_tokens=16000,
         )
         return res.choices[0].message.content
  
@@ -167,7 +174,8 @@ class RecommendationAgent:
                 },
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.5,
+            temperature=0,
+            max_tokens=16000,
         )
         return res.choices[0].message.content
 
@@ -187,7 +195,8 @@ class CitationAgent:
                 },
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.5,
+            temperature=0,
+            max_tokens=16000,
         )
         return res.choices[0].message.content
 
@@ -206,7 +215,8 @@ class QAEngineer:
                 },
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.5,
+            temperature=0,
+            max_tokens=16000,
         )
         return res.choices[0].message.content
 
