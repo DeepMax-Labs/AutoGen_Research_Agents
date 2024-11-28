@@ -1,4 +1,5 @@
 .env
 aiagents_venv
+chatbotvenv
 __pycache__
 .cache
